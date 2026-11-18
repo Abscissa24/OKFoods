@@ -40,7 +40,7 @@ sha256sum OKFoods-v1.0.0.apk
 kotlinc -script scripts/verify.main.kts
 ```
 
-Expected SHA-256: `69eb239d38a880dd23a6707ec89bde7ec4aa5a2f82e7c9298fb8e486417a5911` (see [SHA256SUMS.txt](SHA256SUMS.txt)).
+Expected SHA-256: `37ea0c71105778444e4f0f605e1b4dad71061b9584d0ace5aeb9415440423bc3` (see [SHA256SUMS.txt](SHA256SUMS.txt)).
 
 ---
 
