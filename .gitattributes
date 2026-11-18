@@ -1,0 +1,7 @@
+# GitHub Linguist: keep language statistics honest.
+# Docs, checksums and brand assets are not application code.
+
+*.md linguist-documentation
+SHA256SUMS.txt linguist-vendored
+LICENSE linguist-vendored
+assets/** linguist-vendored

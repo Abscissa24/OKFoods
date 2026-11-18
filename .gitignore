@@ -1,0 +1,39 @@
+# Defensive guardrails: this repository should never contain credentials or source.
+# If any of these ever shows up in a commit, treat it as an incident.
+
+# Signing material — never committed
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+
+# Firebase / Google services config with private material
+google-services.json
+GoogleService-Info.plist
+service-account*.json
+oauth-secret.txt
+client_secret*.json
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Never source trees in this distribution repository
+node_modules/
+dist/
+build/
+target/
+
+# Release binaries are published as GitHub Release assets, never committed
+*.apk
+*.aab
