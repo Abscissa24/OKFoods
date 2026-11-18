@@ -19,7 +19,7 @@ The latest production build is available under the repository's [Releases](https
 
 | Property | Details |
 |:--|:--|
-| **Package** | `OKFoods-v1.0.0-arm64-release.apk` |
+| **Package** | `OKFoods-v1.0.0.apk` |
 | **Version** | `1.0.0` |
 | **Platform** | Android 7.0 and later |
 | **Architecture** | `arm64-v8a` |
@@ -28,19 +28,19 @@ The latest production build is available under the repository's [Releases](https
 
 ### Direct Download
 
-[**Download OKFoods v1.0.0 (ARM64 APK)**](https://github.com/Abscissa24/OKFoods/releases/download/v1.0.0/OKFoods-v1.0.0-arm64-release.apk)
+[**Download OKFoods v1.0.0 (ARM64 APK)**](https://github.com/Abscissa24/OKFoods/releases/download/v1.0.0/OKFoods-v1.0.0.apk)
 
 ### Verifying the download
 
 ```bash
 # Checksum check (Linux/macOS)
-sha256sum OKFoods-v1.0.0-arm64-release.apk
+sha256sum OKFoods-v1.0.0.apk
 
 # Or the bundled Kotlin verifier (requires a Kotlin script runner)
 kotlinc -script scripts/verify.main.kts
 ```
 
-Expected SHA-256: `a71e1fa9b1a00e7ae0879dd03c0187e400905956135307ce6f9223fefba9b058` (see [SHA256SUMS.txt](SHA256SUMS.txt)).
+Expected SHA-256: `69eb239d38a880dd23a6707ec89bde7ec4aa5a2f82e7c9298fb8e486417a5911` (see [SHA256SUMS.txt](SHA256SUMS.txt)).
 
 ---
 
