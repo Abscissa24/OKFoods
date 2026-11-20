@@ -5,3 +5,6 @@
 SHA256SUMS.txt linguist-vendored
 LICENSE linguist-vendored
 assets/** linguist-vendored
+
+# Brand artwork served via jsDelivr CDN (data, not code)
+Assets/** linguist-vendored
